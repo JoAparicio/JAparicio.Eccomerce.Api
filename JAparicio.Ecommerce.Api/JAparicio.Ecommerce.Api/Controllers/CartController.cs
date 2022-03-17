@@ -141,7 +141,7 @@ namespace JAparicio.Ecommerce.Api.Controllers
             }
             else
             {
-                return NotFound($"No se encontro ningun producto en el carrito con la id {id}");
+                return NotFound($"No se encontro ningun producto en el carrito con la id {idProducto}");
             }
 
         }
